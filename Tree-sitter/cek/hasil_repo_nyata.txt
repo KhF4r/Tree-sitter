@@ -1,0 +1,9 @@
+/home/claude/tugas/repo_uji/itsdangerous/src/itsdangerous/serializer.py:190: fungsi panjang: __init__() 45 baris
+/home/claude/tugas/repo_uji/itsdangerous/src/itsdangerous/signer.py:129: fungsi panjang: __init__() 45 baris
+/home/claude/tugas/repo_uji/itsdangerous/src/itsdangerous/signer.py:182: fungsi panjang: derive_key() 32 baris
+/home/claude/tugas/repo_uji/itsdangerous/src/itsdangerous/timed.py:182: TODO/FIXME: # TODO: Signature is incompatible because parameters were added
+/home/claude/tugas/repo_uji/itsdangerous/src/itsdangerous/timed.py:72: fungsi panjang: unsign() 87 baris
+/home/claude/tugas/repo_uji/itsdangerous/src/itsdangerous/timed.py:185: fungsi panjang: loads() 36 baris
+/home/claude/tugas/repo_uji/itsdangerous/src/itsdangerous/url_safe.py:23: fungsi panjang: load_payload() 31 baris
+
+15 file diperiksa, 7 temuan.

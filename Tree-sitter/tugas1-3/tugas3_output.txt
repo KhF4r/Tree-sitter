@@ -1,0 +1,19 @@
+== 1. Nama fungsi dan jumlah parameter (matches) ==
+tambah 2
+kali 3
+tanpa_param 0
+metode 2
+
+== 2. Pemanggilan print(...) ==
+baris 11: print
+baris 15: print
+baris 19: print
+
+== 3. Nama modul import ==
+baris 1: os
+baris 2: sys
+baris 3: pathlib
+baris 4: collections
+
+== 4. [Pengayaan] Docstring ==
+baris 7: """Menjumlahkan dua angka."""

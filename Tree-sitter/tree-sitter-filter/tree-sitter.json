@@ -1,0 +1,36 @@
+{
+  "$schema": "https://tree-sitter.github.io/tree-sitter/assets/schemas/config.schema.json",
+  "grammars": [
+    {
+      "name": "filter",
+      "camelcase": "Filter",
+      "title": "Filter",
+      "scope": "source.filter",
+      "file-types": [
+        "filter"
+      ],
+      "highlights": "queries/highlights.scm",
+      "injection-regex": "^filter$"
+    }
+  ],
+  "metadata": {
+    "version": "0.1.0",
+    "license": "MIT",
+    "description": "DSL filter untuk kotak pencarian lanjutan di halaman admin",
+    "authors": [
+      {
+        "name": "Khalifah"
+      }
+    ]
+  },
+  "bindings": {
+    "c": true,
+    "go": false,
+    "java": false,
+    "node": false,
+    "python": false,
+    "rust": false,
+    "swift": false,
+    "zig": false
+  }
+}

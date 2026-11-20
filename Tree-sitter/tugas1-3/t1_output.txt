@@ -1,0 +1,49 @@
+============================================================
+fungsi
+def sapa(nama):
+    return nama
+
+root_node : (module (function_definition name: (identifier) parameters: (parameters (identifier)) body: (block (return_statement (identifier)))))
+has_error : False
+============================================================
+if_else
+if x > 0:
+    y = 1
+else:
+    y = 2
+
+root_node : (module (if_statement condition: (comparison_operator (identifier) (integer)) consequence: (block (expression_statement (assignment left: (identifier) right: (integer)))) alternative: (else_clause body: (block (expression_statement (assignment left: (identifier) right: (integer)))))))
+has_error : False
+============================================================
+kelas
+class Hewan:
+    def bunyi(self):
+        return 'suara'
+
+root_node : (module (class_definition name: (identifier) body: (block (function_definition name: (identifier) parameters: (parameters (identifier)) body: (block (return_statement (string (string_start) (string_content) (string_end))))))))
+has_error : False
+============================================================
+fungsi_rusak (hapus ':')
+def sapa(nama)
+    return nama
+
+root_node : (module (ERROR (identifier) (parameters (identifier)) (identifier)))
+has_error : True
+============================================================
+kurung_rusak (hapus ')')
+print(1 + 2
+
+root_node : (module (ERROR (binary_operator left: (integer) right: (integer))))
+has_error : True
+============================================================
+children dari function_definition:
+   def anonim
+   identifier bernama
+   parameters bernama
+   : anonim
+   block bernama
+parameters children:
+   ( anonim
+   identifier bernama
+   ) anonim
+len(children) = 5 | len(named_children) = 3
